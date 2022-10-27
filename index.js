@@ -58,3 +58,4 @@ document.getElementById('am2').innerText = amountYouReceive
 btn.addEventListener('click', getdata)
 
 // let data = prompt("Enter your shifts right here: ")
+//This is test for git check
