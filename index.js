@@ -33,6 +33,9 @@ for(let element of content){
     else if(element == 'OFF'){
         continue
     }
+    else if(element == 'A1'){
+        newArr.push(9)
+    }
     else{
         newArr.push(8) 
     }
