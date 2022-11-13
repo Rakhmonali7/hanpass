@@ -20,7 +20,8 @@
     </style>
 </head>
 <body>
-    <section>
+
+    <section class="wrap">
         <div class="let-container">
             <div class="let a" style="color: red;">H</div>
             <div class="let b" style="color: red;">A</div>
@@ -30,38 +31,43 @@
             <div class="let f" style="color: blue;">S</div>
             <div class="let g" style="color: blue;">S</div>
         </div>
-    </section>
-    
-    <div class="top">
-        <input id="input" type="text"> <br>
-        <button id="btn">Calculate</button>
-        <div id="box">
-            <p id="output"></p>
-        </div>
-    </div>
 
-    <div class="wrapper">
-        <div class="inner"><h2>Your Total Hours: <span id="hours">?</span></h2></div>
-        <div class="inner"><h2>Your Total Amount: <span id="am1">?</span></h2></div>
-        <div class="inner"><h2>Your Total Tax: <span id="tax">?</span></h2></div>
-        <div class="inner total">
-            <img class="arrow" src="arr.jpg" alt="">
-            <h2>Your Total Amount you receive: <span id="am2">?</span></h2>
+        <div class="top">
+            <input id="input" type="text"> <br>
+            <button id="btn">Calculate</button>
+            <div id="box">
+                <p id="output"></p>
+            </div>
         </div>
+        
+    </section>
+
+    <div class="belly">
+        
+    <section class="sec1">
+        <div class="wrapper">
+            <div class="inner"><h2>Your Total Hours: <span id="hours">?</span></h2></div>
+            <div class="inner"><h2>Your Total Amount: <span id="am1">?</span></h2></div>
+            <div class="inner"><h2>Your Total Tax: <span id="tax">?</span></h2></div>
+            <div class="inner total">
+                <h2>Your Total Amount you receive: <span id="am2">?</span></h2>
+            </div>
+        </div>
+    </section>
+        
+        
+        <section class="sec2">
+            <table>
+                <tr>
+                    <th>Working Time</th>
+                    <th>Hours</th>
+                </tr>
+                <tbody id="myTable"></tbody>
+            </table>
+        </section>
+
     </div>
     
-    <section>
-        <table>
-            <tr>
-                <th>Working Time</th>
-                <th>Hours</th>
-            </tr>
-            <tbody id="myTable">
-
-            </tbody>
-            <tfoot id="tfoot"></tfoot>
-        </table>
-    </section>
     
     <footer>
         <h4>Made by <a href="#">Rahmonali</a></h4>

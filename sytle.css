@@ -112,9 +112,9 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 70%;
+    width: 900px;
     height: 500px;
-    margin: 0 auto;
+    margin: 30px auto;
     padding: 25px;
     background-color: #576F72;
     border-radius: 25px;
@@ -136,37 +136,15 @@ h1{
 .total{
     position: relative;
 }
-.arrow{
-    width: 40px;
-    position: absolute;
-    left: 0;
-    top: 30px;
-    animation-name: arrow;
-    animation-delay: 1s;
-    animation-duration: 2.5s;
-    animation-fill-mode: forwards;
-}
-.arrow{
-    animation-timing-function: ease-in-out;
-}
-@keyframes arrow {
-  0%   {left:0px}
-  100% {left: 300px;}
-}
 
-section{
-    display: flex;
-    justify-content: center;
-}
 
 .let-container{
-    
     width: 550px;
-    height: 200px;
+    height: 120px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 10 auto;
+    margin: 10px auto;
     position: relative;
 }
 .let{
@@ -250,13 +228,27 @@ section{
     left: 620px;
     top: 60px
 }
-section{
-    margin: 150px auto;
+.belly{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 0 130px;
+    height: 600px;
+    overflow-y: scroll;
+}
+.sec1{
+    flex: 1;
+}
+.sec2{
+     flex: 1
+     
 }
 table{
    border: 2px solid;
    padding: 10px;
    border-collapse: collapse;
+   margin: 30px auto;
+   
 }
 tr td{
     border: 2px solid;
