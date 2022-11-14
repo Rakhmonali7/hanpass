@@ -32,7 +32,11 @@ for(let element of content){
     }else if(element == 'A반'){
         newArr.push(4)
         arr.push("09:00-13:00")
-    }else if(element == 'A4'){
+    }else if(element == 'B2'){
+        newArr.push(10)
+        arr.push("10:00-21:00")
+    }
+    else if(element == 'A4'){
         newArr.push(12)
         arr.push("09:00-22:00")
     }
@@ -91,9 +95,12 @@ function buildTable(tabdata){
 }
 console.log(buildTable(newArr));
 
+
+
 }
 
 btn.addEventListener('click', getdata)
+
 
 // // let data = prompt("Enter your shifts right here: ")
 // // This is test for git check
