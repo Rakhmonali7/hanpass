@@ -27,7 +27,7 @@ for(let element of content){
         newArr.push(8)
         arr.push("09:00-18:00") 
     }else if(element == 'B'){
-        newArr.push(3)
+        newArr.push(8)
         arr.push("10:00-19:00") 
     }else if(element == 'A반'){
         newArr.push(4)
