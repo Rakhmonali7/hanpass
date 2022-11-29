@@ -23,6 +23,9 @@ for(let element of content){
     }else if(element == 'G'){
         newArr.push(3)
         arr.push("19:00-22:00") 
+    }else if(element == 'A2'){
+        newArr.push(10)
+        arr.push("09:00-20:00") 
     }else if(element == 'A'){
         newArr.push(8)
         arr.push("09:00-18:00") 
