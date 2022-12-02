@@ -55,6 +55,10 @@ for(let element of content){
         newArr.push(5)
         arr.push("12:00-17:00")
     }
+    else if(element == 'J'){
+        newArr.push(6)
+        arr.push("16:00-22:00")
+    }
     else if(element == 'OFF'){
         newArr.push(0)
         arr.push("Off ")
