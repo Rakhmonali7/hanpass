@@ -43,6 +43,10 @@ for(let element of content){
         newArr.push(12)
         arr.push("09:00-22:00")
     }
+    else if(element == '2E'){
+        newArr.push(6)
+        arr.push("16:00-22:00")
+    }
     else if(element == '반E'){
         newArr.push(4)
         arr.push("18:00-22:00")
@@ -72,7 +76,7 @@ for(let element of content){
         arr.push("9:00-19:00")
     }
     else{
-        newArr.push(8)
+        newArr.push(0)
         arr.push("else") 
     }
 }
