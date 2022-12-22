@@ -67,7 +67,7 @@ for(let element of content){
         newArr.push(6)
         arr.push("16:00-22:00")
     }else if(element == 'E2'){
-        newArr.push(6)
+        newArr.push(10)
         arr.push("11:00-22:00")
     }
     else if(element == 'OFF'){
