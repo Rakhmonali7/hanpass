@@ -17,71 +17,86 @@ var newArr = [];
 var arr = [];
 
 for(let element of content){
-    if(element == 'B3'){
-        newArr.push(11)
-        arr.push("10:00-22:00")
-    }else if(element == 'G'){
-        newArr.push(3)
-        arr.push("19:00-22:00") 
+    if(element == 'A'){
+        newArr.push(8)
+        arr.push("09:00-18:00")
+    }else if(element == 'A1'){
+        newArr.push(9)
+        arr.push("09:00-19:00") 
     }else if(element == 'A2'){
         newArr.push(10)
         arr.push("09:00-20:00") 
-    }else if(element == 'A'){
-        newArr.push(8)
-        arr.push("09:00-18:00") 
+    }else if(element == 'A4'){
+        newArr.push(12)
+        arr.push("09:00-22:00") 
+    }else if(element == 'A반'){
+        newArr.push(4)
+        arr.push("09:00-13:00") 
+    }else if(element == '반A'){
+        newArr.push(4)
+        arr.push("14:00-18:00") 
+    }else if(element == '1B'){
+        newArr.push(7)
+        arr.push("10:00-18:00") 
     }else if(element == 'B'){
         newArr.push(8)
         arr.push("10:00-19:00") 
-    }else if(element == 'A반'){
-        newArr.push(4)
-        arr.push("09:00-13:00")
+    }else if(element == 'B1'){
+        newArr.push(9)
+        arr.push("10:00-20:00") 
     }else if(element == 'B2'){
         newArr.push(10)
-        arr.push("10:00-21:00")
-    }
-    else if(element == 'A4'){
-        newArr.push(12)
-        arr.push("09:00-22:00")
-    }
-    else if(element == '2E'){
-        newArr.push(6)
-        arr.push("16:00-22:00")
-    }
-    else if(element == '반E'){
+        arr.push("10:00-21:00") 
+    }else if(element == 'B3'){
+        newArr.push(11)
+        arr.push("10:00-22:00") 
+    }else if(element == 'B반'){
         newArr.push(4)
-        arr.push("18:00-22:00")
-    }
-    else if(element == 'E'){
+        arr.push("10:00-14:00") 
+    }else if(element == '반B'){
+        newArr.push(4)
+        arr.push("15:00-19:00") 
+    }else if(element == 'E'){
         newArr.push(8)
-        arr.push("13:00-22:00")
-    }
-    else if(element == 'M'){
-        newArr.push(5)
-        arr.push("12:00-17:00")
-    }
-    else if(element == 'H'){
-        newArr.push(6)
-        arr.push("13:00-19:00")
-    }
-    else if(element == 'J'){
-        newArr.push(6)
-        arr.push("16:00-22:00")
+        arr.push("13:00-22:00") 
+    }else if(element == 'E1'){
+        newArr.push(9)
+        arr.push("12:00-22:00") 
     }else if(element == 'E2'){
         newArr.push(10)
-        arr.push("11:00-22:00")
-    }
-    else if(element == 'OFF'){
+        arr.push("11:00-22:00") 
+    }else if(element == '2E'){
+        newArr.push(6)
+        arr.push("16:00-22:00") 
+    }else if(element == '1E'){
+        newArr.push(7)
+        arr.push("14:00-22:00") 
+    }else if(element == '반E'){
+        newArr.push(4)
+        arr.push("18:00-22:00") 
+    }else if(element == 'E반'){
+        newArr.push(4)
+        arr.push("13:00-17:00") 
+    }else if(element == 'C'){
+        newArr.push(8)
+        arr.push("11:00-20:00") 
+    }else if(element == 'D'){
+        newArr.push(8)
+        arr.push("12:00-21:00") 
+    }else if(element == 'M'){
+        newArr.push(5)
+        arr.push("12:00-17:00") 
+    }else if(element == 'S'){
+        newArr.push(5)
+        arr.push("17:00-22:00") 
+    }else if(element == 'OFF'){
         newArr.push(0)
-        arr.push("Off ")
-    }
-    else if(element == 'A1'){
-        newArr.push(9)
-        arr.push("9:00-19:00")
-    }
-    else{
+        arr.push("off") 
+    }else{
         newArr.push(0)
-        arr.push("else") 
+        arr.push("ERROR") 
     }
+
 }
 
 let totalHours = newArr.reduce( (acc, curr)=> {
