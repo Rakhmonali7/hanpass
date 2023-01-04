@@ -3,7 +3,7 @@
 let input = document.getElementById("input")
 let btn = document.getElementById('btn')
 let output = document.getElementById("output")
-
+let clearbtn = document.getElementById('clear')
 
 
 function getdata(){
@@ -137,8 +137,18 @@ btn.addEventListener('click', getdata)
 
 // // let data = prompt("Enter your shifts right here: ")
 // // This is test for git check
+//revresh window
+function refreshWind(){
+    window.parent.location = window.parent.location.href;
+}
+clearbtn.addEventListener('click', refreshWind)
+//Dark mode
 
-
+document.querySelector(".cont").addEventListener("click", () => {
+    document.querySelector(".sun-logo").classList.toggle("animate-sun");
+    document.querySelector(".moon-logo").classList.toggle("animate-moon");
+    document.querySelector("body").classList.toggle("dark");
+})
 
 
 
