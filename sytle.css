@@ -33,7 +33,7 @@ body{
 .cont{
     position: relative;
     left: 100px;
-    top: -40px;
+    top: -70px;
 }
 
 .dark{
@@ -180,6 +180,7 @@ h1{
     box-shadow: none;
     transform: translateY(0);
   }
+ 
 
 #btn {
     flex: 1;
@@ -349,7 +350,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    padding: 0 200px 100px 200px;
+    padding: 0 300px 100px 300px;
 }
 .sec1{
     flex: 2 1 300px;

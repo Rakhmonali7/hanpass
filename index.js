@@ -4,6 +4,8 @@ let input = document.getElementById("input")
 let btn = document.getElementById('btn')
 let output = document.getElementById("output")
 let clearbtn = document.getElementById('clear')
+let myTable = document.getElementById('myTable')
+
 
 
 function getdata(){
@@ -139,16 +141,37 @@ btn.addEventListener('click', getdata)
 // // This is test for git check
 //revresh window
 function refreshWind(){
-    window.parent.location = window.parent.location.href;
+    // window.parent.location = window.parent.location.href;
+    input.value = '';
+    output.value= '';
+    myTable.innerHTML='';
+
+    document.getElementById('hours').innerText = '?'
+    document.getElementById('am1').innerText = '?'
+    document.getElementById('tax').innerText = '?'
+    document.getElementById('am2').innerText = '?'
 }
 clearbtn.addEventListener('click', refreshWind)
-//Dark mode
 
+//Dark mode
+var clicked = false
 document.querySelector(".cont").addEventListener("click", () => {
     document.querySelector(".sun-logo").classList.toggle("animate-sun");
     document.querySelector(".moon-logo").classList.toggle("animate-moon");
     document.querySelector("body").classList.toggle("dark");
+   
+    if(clicked == false){
+        btn.style.color = '#999999'
+        clearbtn.style.color = '#999999'
+        clicked = true;
+    }else{
+        btn.style.color = 'black'
+        clearbtn.style.color = 'black'
+        clicked = false
+    }
+    
 })
+
 
 
 
