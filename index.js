@@ -90,13 +90,13 @@ for(let element of content){
         arr.push("12:00-17:00") 
     }else if(element == 'S'){
         newArr.push(5)
-        arr.push("11:00-20:00") 
+        arr.push("17:00-22:00") 
     }else if(element == 'G'){
         newArr.push(3)
         arr.push("19:00-22:00") 
     }else if(element == 'OS'){
         newArr.push(8)
-        arr.push("17:00-22:00") 
+        arr.push("11:00-20:00") 
     }else if(element == 'OFF'){
         newArr.push(0)
         arr.push("off") 
