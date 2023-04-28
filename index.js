@@ -70,7 +70,11 @@ for(let element of content){
     }else if(element == '2E'){
         newArr.push(6)
         arr.push("16:00-22:00") 
-    }else if(element == '1E'){
+    }else if(element == '3E'){
+        newArr.push(7)
+        arr.push("14:00-22:00")
+    }
+    else if(element == '1E'){
         newArr.push(7)
         arr.push("14:00-22:00") 
     }else if(element == '반E'){
