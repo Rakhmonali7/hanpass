@@ -42,7 +42,7 @@ const shifts = {
   S: { hours: 5, time: "17:00-22:00" },
   G: { hours: 3, time: "19:00-22:00" },
   N: { hours: 3, time: "17:00-20:00" },
-  Z: { hours: 7, time: "10:00-17:00" },
+  Z: { hours: 6, time: "10:00-17:00" },
   OS: { hours: 8, time: "11:00-20:00" },
   OFF: { hours: 0, time: "off" },
   ERROR: { hours: 0, time: "ERROR" },
